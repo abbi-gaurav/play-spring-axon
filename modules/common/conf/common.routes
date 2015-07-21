@@ -1,0 +1,1 @@
+GET	/testCommon	@controllers.common.ChildController.testCommon()

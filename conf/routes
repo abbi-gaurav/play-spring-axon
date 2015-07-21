@@ -5,6 +5,8 @@
 # Home page
 GET     /                           @controllers.Application.index
 
+->  /common common.Routes
+
 # TODO items
 POST    /addItem                    @controllers.TodoItemController.addTodoItem
 PUT     /completeItem/:id           @controllers.TodoItemController.markComplete(id:String)
