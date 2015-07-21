@@ -4,9 +4,9 @@ version := "1.0-SNAPSHOT"
 
 scalaVersion := "2.11.6"
 
-libraryDependencies += "org.springframework" % "spring-context" % "4.1.4.RELEASE"
+libraryDependencies += Common.springCoreDependency
 
-libraryDependencies += "org.axonframework" % "axon-core" % "2.4.2"
+libraryDependencies += Common.axonCoreDependency
 
 libraryDependencies ++= Seq(
   jdbc,
